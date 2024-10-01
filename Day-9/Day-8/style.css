@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color:bisque;
+}
+.container{
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-rows: repeat(4 1fr);
+    grid-template-columns: repeat(3 1fr);
+    grid-gap: 20px;
+    padding:30px;
+
+}
+.card{
+    background-color:aqua;
+    border:5px solid black;
+    color:hotpink;
+    font-size:30px;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+.header{
+    grid-column: 1/4;
+    background-image: url('https://img.freepik.com/premium-photo/golden-retriever-puppy-isolated-white-background_758367-171892.jpg?ga=GA1.1.110426246.1723111235&semt=ais_hybrid');
+    background-position: center; }
+.side-bar{
+    grid-row: 2/4;
+    background-image: url('https://img.freepik.com/free-photo/cute-dog-studio_23-2150687246.jpg?ga=GA1.2.110426246.1723111235&semt=ais_hybrid');
+    background-position: center;
+    background-repeat:no-repeat;
+
+
+}
+.card5{
+    grid-column: 2/4;
+}
+.footer{
+    grid-column: 1/4;
+}
+
+.side-bar:hover{
+    border:7px solid pink;
+    transform:all 0.5s ease-in-out;
+    box-shadow:0 0 10px brown;
+}
+.card4 {
+    background-image: url('https://img.freepik.com/free-photo/close-up-kitten-surrounded-by-flowers_23-2150782325.jpg?ga=GA1.2.110426246.1723111235&semt=ais_hybrid');
+    background-position:center;
+}
+.card3{
+    background-image: url('https://img.freepik.com/free-photo/shallow-focus-vertical-shot-cute-golden-retriever-puppy-sitting-grass-ground_181624-27259.jpg?ga=GA1.1.110426246.1723111235&semt=ais_hybrid');
+    background-position:center;
+}
+
